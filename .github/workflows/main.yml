@@ -1,5 +1,5 @@
 
-name: Deploy Node app on AWS Elastic Beanstalk
+name: Deploy Node app on AWS Elastic Beanstalkk
 
 env:
   APP_NAME: my-awesome-app1
