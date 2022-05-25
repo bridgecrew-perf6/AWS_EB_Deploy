@@ -2,7 +2,7 @@
 name: Deploy Node app on AWS Elastic Beanstalk
 
 env:
-  APP_NAME: my-awesome-app
+  APP_NAME: my-awesome-app1
   S3_BUCKET: my-awesome-app-bucket1
   AWS_REGION: us-east-1
   AWS_PLATFORM: Docker
