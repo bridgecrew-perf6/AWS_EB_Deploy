@@ -1,11 +1,11 @@
 
 name: Deploy Node app on AWS Elastic Beanstalk
 
-# env:
-#   APP_NAME: my-awesome-app
-#   S3_BUCKET: my-awesome-app-bucket1
-#   AWS_REGION: us-east-1
-#   AWS_PLATFORM: Docker
+env:
+  APP_NAME: my-awesome-app
+  S3_BUCKET: my-awesome-app-bucket1
+  AWS_REGION: us-east-1
+  AWS_PLATFORM: Docker
 
 on:
   push:
@@ -13,7 +13,7 @@ on:
 
 jobs:
   create_eb_version:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Configure AWS credentials 
